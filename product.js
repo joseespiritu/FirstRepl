@@ -4,3 +4,9 @@ export class Product {
     this.price = price;
   }
 }
+
+export class Products {
+  constructor() {
+    this.products = [];
+  }
+}
